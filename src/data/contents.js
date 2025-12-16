@@ -1,0 +1,12 @@
+export const contents = [
+    { id: 1, title: 'CMS Admin 기능 명세서', author: '김철수', status: 'Published', date: '2023-10-24' },
+    { id: 2, title: '12월 마케팅 캠페인', author: '이영희', status: 'Draft', date: '2023-10-23' },
+    { id: 3, title: '사용자 가이드 v2.1', author: '박지민', status: 'Published', date: '2023-10-22' },
+    { id: 4, title: '서버 점검 공지', author: '최준호', status: 'Archived', date: '2023-10-20' },
+    { id: 5, title: '신규 입사자 가이드', author: '인사팀', status: 'Published', date: '2023-10-19' },
+    { id: 6, title: '2024년 사업 계획서', author: '경영지원팀', status: 'Draft', date: '2023-10-18' },
+    { id: 7, title: '개인정보 처리방침 개정', author: '법무팀', status: 'Published', date: '2023-10-15' },
+    { id: 8, title: '디자인 시스템 가이드', author: '디자인팀', status: 'Published', date: '2023-10-12' },
+    { id: 9, title: '로그인 페이지 리뉴얼', author: '개발팀', status: 'Archived', date: '2023-10-10' },
+    { id: 10, title: '주간 업무 보고', author: '김철수', status: 'Published', date: '2023-10-05' },
+];
