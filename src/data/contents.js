@@ -9,4 +9,7 @@ export const contents = [
     { id: 8, title: '디자인 시스템 가이드', author: '디자인팀', status: 'Published', date: '2023-10-12' },
     { id: 9, title: '로그인 페이지 리뉴얼', author: '개발팀', status: 'Archived', date: '2023-10-10' },
     { id: 10, title: '주간 업무 보고', author: '김철수', status: 'Published', date: '2023-10-05' },
+    { id: 11, title: '비공개 프로젝트 A', author: 'TF팀', status: 'Private', date: '2023-10-04' },
+    { id: 12, title: '내부 감사 보고서', author: '감사팀', status: 'Private', date: '2023-10-03' },
+    { id: 13, title: '2024년 연봉 테이블', author: '인사팀', status: 'Private', date: '2023-10-01' },
 ];
