@@ -1,4 +1,4 @@
-/* reuse existing variable names */
+/* Reuse main table styles */
 .container {
     overflow: hidden;
     border: 1px solid var(--border-color);
@@ -39,7 +39,8 @@
     background-color: rgba(255, 255, 255, 0.02);
 }
 
-.status {
+/* Status Badges */
+.badge {
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-size: 0.75rem;
@@ -47,22 +48,29 @@
     display: inline-block;
 }
 
-.statusOngoing {
+/* Grade Colors */
+.gradeRegular {
     background: rgba(16, 185, 129, 0.15);
     color: #10b981;
 }
 
-.statusScheduled {
+.gradeAssociate {
+    background: rgba(59, 130, 246, 0.15);
+    color: #3b82f6;
+}
+
+/* Auth Colors */
+.authDocument {
+    background: rgba(139, 92, 246, 0.15);
+    color: #8b5cf6;
+}
+
+.authEmail {
     background: rgba(245, 158, 11, 0.15);
     color: #f59e0b;
 }
 
-.statusEnded {
-    background: rgba(113, 113, 122, 0.15);
-    color: #a1a1aa;
-}
-
-.statusPrivate {
-    background: rgba(99, 102, 241, 0.15);
-    color: #6366f1;
+.authNone {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
 }

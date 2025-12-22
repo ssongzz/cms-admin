@@ -1,0 +1,17 @@
+export const members = [
+    { id: 1, name: '홍길동', email: 'hong@example.com', grade: '정회원', authStatus: '서류인증', affiliation: '초등', joinDate: '2024-01-15' },
+    { id: 2, name: '김철수', email: 'kim@example.com', grade: '준회원', authStatus: '메일인증', affiliation: '중학', joinDate: '2024-02-20' },
+    { id: 3, name: '이영희', email: 'lee@example.com', grade: '정회원', authStatus: '미인증', affiliation: '고등', joinDate: '2024-03-10' },
+    { id: 4, name: '박지민', email: 'park@example.com', grade: '준회원', authStatus: '서류인증', affiliation: '초등', joinDate: '2024-04-05' },
+    { id: 5, name: '최준호', email: 'choi@example.com', grade: '정회원', authStatus: '메일인증', affiliation: '중학', joinDate: '2024-05-12' },
+    { id: 6, name: '정민수', email: 'jung@example.com', grade: '준회원', authStatus: '미인증', affiliation: '고등', joinDate: '2024-06-18' },
+    { id: 7, name: '강서준', email: 'kang@example.com', grade: '정회원', authStatus: '서류인증', affiliation: '초등', joinDate: '2024-07-22' },
+    { id: 8, name: '윤서연', email: 'yoon@example.com', grade: '준회원', authStatus: '메일인증', affiliation: '중학', joinDate: '2024-08-30' },
+    { id: 9, name: '임재현', email: 'lim@example.com', grade: '정회원', authStatus: '미인증', affiliation: '고등', joinDate: '2024-09-14' },
+    { id: 10, name: '한지우', email: 'han@example.com', grade: '준회원', authStatus: '서류인증', affiliation: '초등', joinDate: '2024-10-01' },
+    { id: 11, name: '오동현', email: 'oh@example.com', grade: '정회원', authStatus: '메일인증', affiliation: '중학', joinDate: '2024-10-15' },
+    { id: 12, name: '송하은', email: 'song@example.com', grade: '준회원', authStatus: '미인증', affiliation: '고등', joinDate: '2024-11-20' },
+    { id: 13, name: '신지훈', email: 'shin@example.com', grade: '정회원', authStatus: '서류인증', affiliation: '초등', joinDate: '2024-12-05' },
+    { id: 14, name: '유도윤', email: 'yoo@example.com', grade: '준회원', authStatus: '메일인증', affiliation: '중학', joinDate: '2025-01-10' },
+    { id: 15, name: '안시우', email: 'ahn@example.com', grade: '정회원', authStatus: '미인증', affiliation: '고등', joinDate: '2025-02-14' },
+];

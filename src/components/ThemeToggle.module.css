@@ -1,0 +1,26 @@
+.toggleButton {
+    background: none;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+    background-color: var(--bg-secondary);
+    width: 36px;
+    height: 36px;
+}
+
+.toggleButton:hover {
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    background-color: var(--bg-card);
+}
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}

@@ -10,10 +10,10 @@ export default function ContentList({ items }) {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Status</th>
-            <th>Date</th>
+            <th>이벤트명</th>
+            <th>담당 부서</th>
+            <th>상태</th>
+            <th>기간</th>
           </tr>
         </thead>
         <tbody>
@@ -32,6 +32,6 @@ export default function ContentList({ items }) {
           ))}
         </tbody>
       </table>
-    </div>
+    </div >
   );
 }

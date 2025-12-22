@@ -6,9 +6,9 @@ import ContentList from '@/components/ContentList';
 
 const STATUS_OPTIONS = [
   { label: '전체', value: 'ALL' },
-  { label: '공개', value: 'Published' },
-  { label: '임시저장', value: 'Draft' },
-  { label: '보관', value: 'Archived' },
+  { label: '진행중', value: 'Ongoing' },
+  { label: '예정', value: 'Scheduled' },
+  { label: '종료', value: 'Ended' },
   { label: '비공개', value: 'Private' }
 ];
 
@@ -22,7 +22,7 @@ export default function Page() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>CMS AdminPage</h1>
+      <h1 className={styles.title}>콘텐츠 관리</h1>
 
       <div className={styles.filterContainer}>
         <select

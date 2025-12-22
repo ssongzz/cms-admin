@@ -1,6 +1,7 @@
 :root {
+  /* Default Dark Theme */
   --bg-primary: #09090b;
-  --bg-secondary: #0f0f11; /* Slightly lighter/different tone for sidebar */
+  --bg-secondary: #0f0f11;
   --bg-card: #141417;
   --text-primary: #f4f4f5;
   --text-secondary: #a1a1aa;
@@ -9,6 +10,19 @@
   --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
   --border-color: #27272a;
   --glass-bg: rgba(24, 24, 27, 0.7);
+}
+
+[data-theme='light'] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f4f5;
+  --bg-card: #ffffff;
+  --text-primary: #18181b;
+  --text-secondary: #71717a;
+  --accent-primary: #4f46e5;
+  --accent-secondary: #9333ea;
+  --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+  --border-color: #e4e4e7;
+  --glass-bg: rgba(255, 255, 255, 0.75);
 }
 
 * {
