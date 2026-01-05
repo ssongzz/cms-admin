@@ -9,10 +9,14 @@
     margin-bottom: 2rem;
 }
 
-.filterContainer {
+.filterWrap {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.total .num {
+    color: #d5c127;
 }
 
 .select {

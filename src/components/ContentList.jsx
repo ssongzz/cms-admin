@@ -1,7 +1,7 @@
 'use client';
 
-import React from 'react';
 import styles from './ContentList.module.css';
+import { STATUS_MAP } from '@/constants/status';
 
 export default function ContentList({ items }) {
   return (
@@ -9,11 +9,11 @@ export default function ContentList({ items }) {
       <table className={styles.table}>
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Status</th>
-            <th>Date</th>
+            <th>이름</th>
+            <th>이벤트명</th>
+            <th>작성자</th>
+            <th>상태</th>
+            <th>작성일</th>
           </tr>
         </thead>
         <tbody>
@@ -23,7 +23,7 @@ export default function ContentList({ items }) {
               <td>{item.title}</td>
               <td>{item.author}</td>
               <td>
-                <span className={`${styles.status} ${styles[`status${item.status}`]}`}>
+                <span className={`${styles.status}${STATUS_MAP[item.status]}`}>
                   {item.status}
                 </span>
               </td>
