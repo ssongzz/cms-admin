@@ -11,15 +11,15 @@ const STATUS_STYLES = {
 
 export default function ContentList({ items }) {
   return (
-    <div className="overflow-hidden border border-zinc-200 rounded-xl bg-[#f7f7f7] shadow-sm">
+    <div className="overflow-hidden border border-zinc-200 rounded-xl shadow-sm">
       <table className="w-full text-left border-collapse">
         <thead className="bg-zinc-50 border-b border-zinc-200">
           <tr>
-            <th className="px-6 py-4 bg-[#666] text-xs font-semibold text-zinc-500 tracking-wider">이름</th>
-            <th className="px-6 py-4 bg-[#666] text-xs font-semibold text-zinc-500 tracking-wider">이벤트명</th>
-            <th className="px-6 py-4 bg-[#666] text-xs font-semibold text-zinc-500 tracking-wider">작성자</th>
-            <th className="px-6 py-4 bg-[#666] text-xs font-semibold text-zinc-500 tracking-wider">상태</th>
-            <th className="px-6 py-4 bg-[#666] text-xs font-semibold text-zinc-500 tracking-wider">작성일</th>
+            <th className="px-6 py-4 text-xs font-semibold text-zinc-500 tracking-wider">이름</th>
+            <th className="px-6 py-4 text-xs font-semibold text-zinc-500 tracking-wider">이벤트명</th>
+            <th className="px-6 py-4 text-xs font-semibold text-zinc-500 tracking-wider">작성자</th>
+            <th className="px-6 py-4 text-xs font-semibold text-zinc-500 tracking-wider">상태</th>
+            <th className="px-6 py-4 text-xs font-semibold text-zinc-500 tracking-wider">작성일</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-zinc-200">
